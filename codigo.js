@@ -44,7 +44,7 @@ while (opcion === true) {
   let resultadoIMC = calcularIMC(datosIMC[0], datosIMC[1])
 
   // Mostrando el resultado por medio de un alert
-  console.log(nombre + " tu masa corporal es de " + resultadoIMC)
+  alert (nombre + " tu masa corporal es de " + resultadoIMC)
 
   menu = parseInt(prompt("Para calcular el IMC presione 1 si desea salir presione 2."))
   opcion = controlMenu(menu)
